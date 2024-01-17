@@ -10,19 +10,23 @@ export class HomeComponent {
   cards = [
     {
       title: 'Hospedagens',
-      icon: 'hotel'
+      icon: 'hotel',
+      route: '/hospedagens'
     },
     {
       title: 'Lazer',
-      icon: 'local_play'
+      icon: 'local_play',
+      route: 'hospedagens'
     },
     {
       title: 'Alimentação',
-      icon: 'restaurant_menu'
+      icon: 'restaurant_menu',
+      route: 'hospedagens'
     },
     {
       title: 'Outros',
-      icon: 'dynamic_feed'
+      icon: 'dynamic_feed',
+      route: 'hospedagens'
     },
   ]
 }

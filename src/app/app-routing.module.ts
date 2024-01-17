@@ -12,6 +12,11 @@ const routes: Routes = [
         path: 'home',
         loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule)
       },
+      // HOSPEDAGENS
+      {
+        path: 'hospedagens',
+        loadChildren: () => import('./pages/accommodation/accommodation.module').then(m => m.AccommodationModule)
+      },
     ]
   }
   //

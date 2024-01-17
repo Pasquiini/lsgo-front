@@ -1,0 +1,202 @@
+.icon-box-media {
+  display: block;
+  width: 3rem;
+  min-width: 3rem;
+  height: 3rem;
+  transition: background-color .22s ease-in-out, color .22s ease-in-out;
+  border-radius: .5rem;
+  background-position: center;
+  background-size: cover;
+  font-size: 6.5rem;
+  line-height: 0.75rem;
+  text-align: center
+}
+
+.icon-box-title {
+  margin-bottom: .5rem
+}
+
+.icon-box-title:not(.text-light):not(.text-white) {
+  color: #1f1b2d !important
+}
+
+.icon-box:hover .icon-box-media.text-primary,
+.icon-box.active .icon-box-media.text-primary,
+.icon-box.show .icon-box-media.text-primary {
+  background-color: #007aff !important;
+  color: #fff !important
+}
+
+.icon-box:hover .icon-box-media.text-accent,
+.icon-box.active .icon-box-media.text-accent,
+.icon-box.show .icon-box-media.text-accent {
+  background-color: #5d3cf2 !important;
+  color: #fff !important
+}
+
+.icon-box:hover .icon-box-media.text-success,
+.icon-box.active .icon-box-media.text-success,
+.icon-box.show .icon-box-media.text-success {
+  background-color: #07c98b !important;
+  color: #fff !important
+}
+
+.icon-box:hover .icon-box-media.text-info,
+.icon-box.active .icon-box-media.text-info,
+.icon-box.show .icon-box-media.text-info {
+  background-color: #3c76f2 !important;
+  color: orangered !important
+}
+
+.icon-box:hover .icon-box-media.text-warning,
+.icon-box.active .icon-box-media.text-warning,
+.icon-box.show .icon-box-media.text-warning {
+  background-color: #fdbc31 !important;
+  color: #fff !important
+}
+
+.icon-box:hover .icon-box-media.text-danger,
+.icon-box.active .icon-box-media.text-danger,
+.icon-box.show .icon-box-media.text-danger {
+  background-color: #f23c49 !important;
+  color: #fff !important
+}
+
+.icon-box:hover .icon-box-media.text-dark,
+.icon-box.active .icon-box-media.text-dark,
+.icon-box.show .icon-box-media.text-dark {
+  background-color: #1f1b2d !important;
+  color: #fff !important
+}
+
+.icon-box:hover .icon-box-media.text-light,
+.icon-box.active .icon-box-media.text-light,
+.icon-box.show .icon-box-media.text-light {
+  background-color: #fff !important;
+  color: #007aff !important
+}
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    --fi-gutter-x: 1.5rem;
+    --fi-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--fi-gutter-x)*.5);
+    padding-left: calc(var(--fi-gutter-x)*.5);
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media(min-width: 500px) {
+
+    .container-sm,
+    .container {
+        max-width: 100%
+    }
+}
+
+@media(min-width: 768px) {
+
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 100%
+    }
+}
+
+@media(min-width: 992px) {
+
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 100%
+    }
+}
+
+@media(min-width: 1200px) {
+
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 100%
+    }
+}
+
+@media(min-width: 1400px) {
+
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1320px
+    }
+}
+.icon-box-title {
+  margin-bottom: .5rem
+}
+
+.icon-box-title:not(.text-light):not(.text-white) {
+  color: #1f1b2d !important
+}
+.star-rating-icon {
+  display: inline-block;
+  margin-right: .125rem;
+  color: #bbb7c5;
+  font-size: .875rem
+}
+
+.star-rating-icon.active {
+  color: #fdbc31
+}
+
+.text-light .star-rating-icon,
+.text-white .star-rating-icon {
+  color: rgba(255, 255, 255, .5)
+}
+
+.text-light .star-rating-icon.active,
+.text-white .star-rating-icon.active {
+  color: #fdbc31
+}
+
+.star-rating-sm .star-rating-icon {
+  font-size: .6875rem
+}
+
+.custom-marker-icon {
+  display: block;
+  width: 3rem !important;
+  height: auto !important;
+  margin-top: -1.5rem !important;
+  margin-left: -1.5rem !important
+}
+
+.custom-marker-icon.leaflet-marker-shadow {
+  display: none
+}
+.leaflet-popup:focus,
+.leaflet-marker-icon:focus {
+    outline: none
+}
+.map-popup .btn-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 999
+}
+.fs-sm {
+  font-size: 0.875rem !important;
+  color: #666276 !important;
+}
+a.card {
+  text-decoration: none
+}

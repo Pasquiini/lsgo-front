@@ -4,12 +4,14 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import {MatIconModule} from '@angular/material/icon';
+import { TitlePageComponent } from './title-page/title-page.component';
 
 
 @NgModule({
   declarations: [
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    TitlePageComponent
   ],
   imports: [
     CommonModule,
@@ -21,6 +23,7 @@ import {MatIconModule} from '@angular/material/icon';
     RouterModule,
     MatIconModule,
     FooterComponent,
+    TitlePageComponent
   ]
 })
 export class SharedModule { }
